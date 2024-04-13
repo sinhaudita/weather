@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <a target="_blank" href="https://icons8.com/icon/77/info">Information</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+    <a target="_blank" href="https://icons8.com/icon/D83L4I3ldx7m/humidity">Humidity</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> 
+    <a target="_blank" href="https://icons8.com/icon/NFarzlQfH1Dz/wind">Wind</a> icon by <a target="_blank" href="https://icons8.com">Icons8
+    <a target="_blank" href="https://icons8.com/icon/132/search">Search</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+    <a target="_blank" href="https://icons8.com/icon/arTIUtO5zOTy/sun">Sun</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+    <a target="_blank" href="https://icons8.com/icon/zIVmoh4T8wh7/partly-cloudy-day">Partly Cloudy Day</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+    Video by Pixabay: https://www.pexels.com/video/rainy-weather-at-the-field-855592/
+    </a>-->
+    <div class="video-container" id="bg">
+        <video autoplay loop muted disablepictureinpicture>
+          <source src="/Images/phool.mp4" type="video/mp4">
+          
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      
+    <!-- <div class="container"> -->
+        <div class="search-bar">
+            <input type="text" placeholder="City">
+            <button><img src="/Images/icons8-search-50.png" height="40px" width="40px"   alt="search tool"></button>
+        </div>
+        <div class="card">
+            <div class="details">
+                <img src="/Images/icons8-partly-cloudy-day-48.png" height="100px" width="80px " class="icon" alt="og bg">
+                <h1 class="city">-- </h1>
+                <div class="temp">
+                    <div class="one">
+                        <h2 class="real-temp">--</h2>
+                    <p>[Temperature]</p>
+                    </div>
+                    <div class="two">
+                        <h2 class="feel">--</h2>
+                    <p>[Feels-like]</p>
+                    </div>
+                    
+                </div>
+                
+                <div class="info">
+                    <div class="column">
+                        <img src="/Images/icons8-humidity-64.png" height="50px" width="50px" alt="hi">
+                        <div>
+                            <p class="humidity">--</p>
+                            <p>[Humidity]</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <img src="/Images/icons8-wind-64.png" height="50px" width="50px" alt="">
+                        <div>
+                            <p class="wind">--</p>
+                            <p>[Wind]</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <img src="/Images/icons8-information-50.png" height="50px" width="50px" alt="">
+                        <div>
+                            <p class="desc">--</p>
+                            <p>[Description]</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
