@@ -15,6 +15,7 @@ body{
     
     
 }
+
 .video-container {
     /* margin-top: 20%; */
     position: fixed;
@@ -33,6 +34,16 @@ body{
      /* Maintain aspect ratio and cover the entire container */
     filter: blur(4px);
   }
+
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    margin-top: 10px;
+    margin-left: 15px;
+}
   
 .search-bar{
     display: flex;
@@ -41,6 +52,7 @@ body{
     align-items: center;
     gap:15px ;
     margin: 50px auto 0;
+    margin-left: -125px;
 }
 .search-bar input{
     height: 50px;
@@ -60,6 +72,7 @@ body{
     cursor: pointer;
     height: 60px;
     width: 60px;
+    /* margin-left: 0%; */
 }
 
 
